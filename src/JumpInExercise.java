@@ -7,14 +7,13 @@ public class JumpInExercise {
     int count = 0;
     int total = 0;
 
-    for (int i = 0; i < numbers.length; i++) {
-      if (numbers[i] % 2 != 0) {
+    for (int number : numbers) {
+      if (number % 2 != 0) {
         count++;
-        total += numbers[i];
+        total += number;
       }
     }
 
-    double avg = (double) total / (double) count;
-    return avg;
+    return (double) total / (double) count;
   }
 }
