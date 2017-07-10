@@ -3,7 +3,7 @@
  */
 public class JumpInExercise {
 
-  public static double averageOfEvenNumbers(int[] numbers) {
+  public double averageOfEvenNumbers(int[] numbers) {
     int count = 0;
     int total = 0;
 
