@@ -8,7 +8,7 @@ public class JumpInExercise {
     int total = 0;
 
     for (int number : numbers) {
-      if (number % 2 != 0) {
+      if (number % 2 == 0) {
         count++;
         total += number;
       }
